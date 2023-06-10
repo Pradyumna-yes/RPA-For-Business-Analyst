@@ -1,0 +1,41 @@
+## Google Sheets Email Automation with Power Automate RPA
+
+### Overview
+
+This project provides a workflow solution to automate email sending directly from Google Sheets using Power Automate RPA. By integrating Google Sheets and Power Automate, you can streamline the process of sending personalized emails to multiple recipients without manual intervention. This eliminates repetitive tasks, saves time, and enhances productivity.
+
+### How It Works
+
+1. Create a Google Sheet with the following columns:
+   - Name: Name of the recipient.
+   - Email id: Email address of the recipient.
+   - Subject: Subject of the email.
+   - Text: Content of the email.
+   - Date: Date for when the email should be sent.
+
+2. Populate the Google Sheet with recipient details, including their names, email addresses, email subject, email content, and the desired date for sending the email.
+
+3. Set up Power Automate RPA to trigger the email sending process:
+   - Configure the flow to retrieve data from the Google Sheet.
+   - Use the retrieved data to generate personalized emails.
+   - Connect to an email service provider (e.g., Gmail, Outlook) to send the emails.
+
+4. Manually trigger the flow by clicking the "Run" button in Power Automate.
+
+5. Power Automate will fetch the recipient details from the Google Sheet based on the specified date.
+
+6. The flow will initiate the email sending process, sending personalized emails to the corresponding email addresses.
+
+### Benefits
+
+- **Time Savings**: Automating the email sending process eliminates the need for manual intervention, saving valuable time and effort.
+- **Efficiency**: With Power Automate RPA, emails are sent accurately and consistently, reducing the risk of errors.
+- **Personalization**: Each recipient receives a personalized email based on the data in the Google Sheet, enhancing engagement and communication.
+- **Flexibility**: The flow can be easily customized to fit specific requirements, allowing for seamless integration with different email service providers.
+- **Productivity**: By automating repetitive tasks, you can focus on more important aspects of your work, increasing overall productivity.
+
+### Get Started
+
+To get started with Google Sheets Email Automation using Power Automate RPA, follow the instructions provided in the [project repository](https://github.com/your-repo-link). The repository contains the necessary code and documentation to help you set up and run the workflow.
+
+Enhance your email communication process, automate repetitive tasks, and experience increased efficiency with Google Sheets Email Automation using Power Automate RPA.
